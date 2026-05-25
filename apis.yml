@@ -1,0 +1,241 @@
+aid: glass-health
+name: Glass Health
+description: >-
+  Glass Health is a San Francisco-based clinical AI company founded in 2021 by
+  Dereck Paul (CEO) and Graham Ramsey (Head of Product) that builds an AI
+  clinical decision support (CDS) and ambient scribing co-pilot for physicians,
+  nurse practitioners, physician assistants, residents, and medical students.
+  The Glass platform combines large language model reasoning with curated,
+  physician-reviewed clinical guidelines to generate ranked differential
+  diagnoses, evidence-based assessment and plans, chart summaries, and direct
+  answers to clinical questions ("Consult"), all delivered with inline
+  citations. Glass also provides ambient scribing that listens during patient
+  encounters and generates History and Physical notes, progress notes,
+  discharge summaries, and patient-facing instructions, plus EHR integration
+  via SMART on FHIR to pull demographics, problem lists, medications,
+  laboratory values, vital signs, imaging, and encounter data into the
+  workflow. Glass offers a tiered SaaS plan (Lite free tier, Starter at
+  $20/month, Pro at $90/month, Max at $200/month) along with iOS and Android
+  apps, and a public Glass Developer API ($250/month minimum, token-metered
+  beyond the floor) that exposes the same clinical AI agent — Consult,
+  Differential Diagnosis, Assessment and Plan, and Scribing endpoints — for
+  third-party healthcare products. Glass is backed by Breyer Capital and
+  graduated from Y Combinator's W23 batch, with roughly $6.5M in total
+  disclosed funding. The provider does not publish an open OpenAPI
+  specification or open-source SDKs; integration details are gated behind the
+  developer portal and an enterprise contact at enterprise@glass.health.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Healthcare
+  - Clinical Decision Support
+  - Diagnostic AI
+  - Differential Diagnosis
+  - Ambient Scribing
+  - Clinical Documentation
+  - Medical AI
+  - Generative AI
+  - EHR Integration
+  - SMART On FHIR
+  - Evidence Based Medicine
+  - Physician Copilot
+url: https://raw.githubusercontent.com/api-evangelist/glass-health/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://glass.health
+  - type: Features
+    url: https://glass.health/features
+  - type: AmbientScribing
+    url: https://glass.health/ambient-scribing
+  - type: EHRIntegration
+    url: https://glass.health/ehr-integration
+  - type: DeveloperAPI
+    url: https://glass.health/developer-api
+  - type: Documentation
+    url: https://glass.health/api-documentation
+  - type: Pricing
+    url: https://glass.health/pricing
+  - type: Resources
+    url: https://glass.health/resources
+  - type: SignUp
+    url: https://glass.health/sign-up
+  - type: LogIn
+    url: https://glass.health/login
+  - type: Contact
+    url: https://glass.health/contact
+  - type: Careers
+    url: https://glass.health/join-us
+  - type: TermsOfService
+    url: https://glass.health/terms-of-service
+  - type: PrivacyPolicy
+    url: https://glass.health/privacy-policy
+  - type: SafetyDisclaimer
+    url: https://glass.health/safety-disclaimer
+  - type: iOSApp
+    url: https://apps.apple.com/us/app/glass-health/id6746718047
+  - type: AndroidApp
+    url: https://play.google.com/store/apps/details?id=health.glass.client
+  - type: GitHub
+    url: https://github.com/Glass-Health
+  - type: Twitter
+    url: https://twitter.com/GlassHealthHQ
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/glass-health-inc
+  - type: Email
+    url: mailto:contact@glass.health
+  - type: EnterpriseEmail
+    url: mailto:enterprise@glass.health
+  - type: Features
+    data:
+      - name: Consult
+        description: Returns a direct, evidence-grounded answer to a clinical question with inline
+          citations and organized context.
+      - name: Differential Diagnosis
+        description: Generates a structured, ranked differential diagnosis with case discussion and
+          recommended diagnostic next steps from a patient one-liner or chief complaint.
+      - name: Assessment and Plan
+        description: Drafts clinical-grade assessment-and-plan documentation with synthesized
+          impressions and evidence-linked recommendations.
+      - name: Chart Summarization
+        description: AI synthesis of EHR data across notes, labs, imaging, and medications into a
+          clinician-ready summary.
+      - name: Ambient Scribing
+        description: Real-time diagnostic insights during the patient encounter plus automatic
+          generation of comprehensive clinical documentation afterward.
+      - name: Clinical Documentation
+        description: Generates History and Physical notes, progress notes with interval changes and
+          vital signs, discharge summaries with disposition planning, and patient-facing discharge
+          instructions in plain language.
+      - name: Deep Reasoning
+        description: Enhanced reasoning mode for complex, high-stakes, or ambiguous clinical
+          questions.
+      - name: Workspace
+        description: Unified dashboard with file tabs, inline editing, and version history across
+          clinical artifacts.
+      - name: Mobile Apps
+        description: Native iOS and Android Glass Health applications for clinicians on the go.
+  - type: UseCases
+    data:
+      - name: Triage and Differential Diagnosis
+        description: Generating ranked differentials at the point of triage or initial workup to
+          surface diagnoses worth considering.
+      - name: Treatment Planning
+        description: Producing evidence-linked treatment options and assessment-and-plan drafts for
+          clinician review.
+      - name: Clinical Question Answering
+        description: Answering bedside clinical questions with citations to current medical
+          literature.
+      - name: Patient Record Summarization
+        description: Synthesizing longitudinal EHR data into a coherent patient summary.
+      - name: Ambient Documentation
+        description: Capturing patient-clinician encounters in real time and producing structured
+          notes without manual scribing.
+      - name: Patient Education
+        description: Generating plain-language discharge instructions and condition-specific
+          handouts.
+      - name: Medical Education
+        description: Supporting medical students, residents, and fellows in case-based clinical
+          reasoning practice.
+  - type: TargetUsers
+    data:
+      - name: Physicians
+        description: Attending physicians across primary care and specialties.
+      - name: Advanced Practice Providers
+        description: Nurse practitioners and physician assistants.
+      - name: Residents and Fellows
+        description: Trainees using Glass for case-based reasoning and documentation support.
+      - name: Medical Students
+        description: Students learning differential diagnosis and clinical decision making.
+      - name: Healthcare Developers
+        description: Third-party healthcare product teams building on the Glass Developer API.
+  - type: Plans
+    data:
+      - name: Lite
+        description: Free tier with limited ambient scribing and limited clinical decision support;
+          no credit card required.
+      - name: Starter
+        description: $20/month tier for individual clinicians beginning to integrate Glass into
+          their workflow.
+      - name: Pro
+        description: $90/month tier expanding ambient scribing and clinical decision support for
+          regular use.
+      - name: Max
+        description: $200/month tier for higher-volume practices needing the full Glass capability
+          set.
+      - name: Developer API
+        description: $250/month minimum with token-metered usage beyond the floor, providing
+          programmatic access to the Glass clinical AI agent.
+      - name: Enterprise
+        description: Custom enterprise plans for health systems and organizations; contact
+          enterprise@glass.health.
+  - type: DeveloperAPI
+    data:
+      - name: REST Interface
+        description: RESTful HTTP interface with secure authentication and structured endpoints for
+          clinical queries.
+      - name: Consult Endpoint
+        description: Returns evidence-grounded answers to clinical questions with inline citations
+          and metadata.
+      - name: Differential Diagnosis Endpoint
+        description: Returns ranked differentials and recommended next steps from clinical inputs.
+      - name: Assessment and Plan Endpoint
+        description: Returns drafted assessment-and-plan documentation grounded in clinical
+          evidence.
+      - name: Scribing Endpoint
+        description: Generates diarized transcripts and structured clinical documentation from
+          encounter audio in a single API call.
+      - name: Streaming Progress
+        description: Real-time progress updates from the agent during processing, suitable for
+          display to end users.
+      - name: Markdown Responses
+        description: Responses are returned in markdown with in-text citations and metadata for
+          source rendering.
+      - name: Self-Serve Activation
+        description: Developer API keys can be provisioned self-serve from the Glass web app.
+  - type: Integrations
+    data:
+      - name: SMART On FHIR
+        description: Glass integrates directly into EHR workflows via SMART on FHIR, surfacing the
+          clinical AI inside the EHR interface.
+      - name: EHR Data Elements
+        description: Pulls demographics, past medical history, problem lists, medications, surgical
+          history, laboratory values, vital signs, imaging studies, functional status, social
+          history, allergies, preventive care, and encounter data.
+      - name: iOS
+        description: Native Glass Health app on the Apple App Store.
+      - name: Android
+        description: Native Glass Health app on Google Play.
+  - type: Compliance
+    data:
+      - name: HIPAA
+        description: HIPAA-compliant handling of protected health information for clinical decision
+          support and ambient documentation workflows.
+      - name: Safety Disclaimer
+        description: Glass publishes a clinical safety disclaimer outlining that outputs are
+          decision support and require clinician judgment.
+  - type: Company
+    data:
+      - name: Founded
+        description: 2021, by Dereck Paul (CEO) and Graham Ramsey (Head of Product).
+      - name: Headquarters
+        description: San Francisco, California.
+      - name: Y Combinator
+        description: Graduated from the Y Combinator Winter 2023 batch.
+      - name: Funding
+        description: Approximately $6.5M total disclosed funding, including a $1.5M pre-seed led by
+          Breyer Capital in 2022.
+  - type: Investors
+    data:
+      - name: Breyer Capital
+        description: Lead investor in Glass Health's pre-seed round.
+      - name: Y Combinator
+        description: W23 batch investor and accelerator.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
