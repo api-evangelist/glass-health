@@ -63,9 +63,9 @@ common:
     url: https://glass.health/pricing
   - type: Resources
     url: https://glass.health/resources
-  - type: SignUp
+  - type: Signup
     url: https://glass.health/sign-up
-  - type: LogIn
+  - type: Login
     url: https://glass.health/login
   - type: Contact
     url: https://glass.health/contact
