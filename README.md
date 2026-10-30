@@ -1,4 +1,4 @@
-# glass-health
+# Glass Health
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Glass Health — AI clinical decision support and ambient scribing co-pilot for clinicians
+Glass Health is a San Francisco-based clinical AI company founded in 2021 by Dereck Paul (CEO) and Graham Ramsey (Head of Product) that builds an AI clinical decision support (CDS) and ambient scribing co-pilot for physicians, nurse practitioners, physician assistants, residents, and medical students. The Glass platform combines large language model reasoning with curated, physician-reviewed clinical guidelines to generate ranked differential diagnoses, evidence-based assessment and plans, chart summaries, and direct answers to clinical questions ("Consult"), all delivered with inline citations. Glass also provides ambient scribing that listens during patient encounters and generates History and Physical notes, progress notes, discharge summaries, and patient-facing instructions, plus EHR integration via SMART on FHIR to pull demographics, problem lists, medications, laboratory values, vital signs, imaging, and encounter data into the workflow. Glass offers a tiered SaaS plan (Lite free tier, Starter at $20/month, Pro at $90/month, Max at $200/month) along with iOS and Android apps, and a public Glass Developer API ($250/month minimum, token-metered beyond the floor) that exposes the same clinical AI agent — Consult, Differential Diagnosis, Assessment and Plan, and Scribing endpoints — for third-party healthcare products. Glass is backed by Breyer Capital and graduated from Y Combinator's W23 batch, with roughly $6.5M in total disclosed funding. The provider does not publish an open OpenAPI specification or open-source SDKs; integration details are gated behind the developer portal and an enterprise contact at enterprise@glass.health.
+
+**Areas:** Healthcare · Clinical Decision Support · Diagnostic AI · Differential Diagnosis · Ambient Scribing · Clinical Documentation · Medical AI · Generative AI · EHR Integration · SMART on FHIR · Evidence-Based Medicine · Physician Copilot
+
+## Glass Health on APIs.io
+
+Everything profiled for Glass Health is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/glass-health/](https://apis.io/providers/glass-health/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Glass Health Domain Security](https://apis.io/security/glass-health/glass-health-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://glass.health)
+- [Documentation](https://glass.health/api-documentation)
+- [Pricing](https://glass.health/pricing)
+- [Terms of service](https://glass.health/terms-of-service)
+- [Privacy policy](https://glass.health/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 11.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 25.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 8.1** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/glass-health/](https://apis.io/providers/glass-health/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Glass Health: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/glass-health/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
